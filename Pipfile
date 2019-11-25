@@ -5,14 +5,15 @@ name = "pypi"
 
 [packages]
 gym = "*"
-tensorflow = "==2.0.0-beta1"
-tfp-nightly = "*"
+tensorflow = "*"
+tensorflow-probability = "*"
 six = "*"
 
 [requires]
 python_version = "3.6.5"
 
 [dev-packages]
+black = "*"
 ipdb = "*"
 pre-commit = "*"
 twine = "*"

@@ -4,7 +4,7 @@ from __future__ import print_function
 
 from setuptools import setup, find_packages
 
-install_requires = ["gym", "six"]
+install_requires = ["gym", "six", "tensorflow", "tensorflow-probability"]
 with open("README.md", "r") as fp:
     long_description = fp.read()
 
